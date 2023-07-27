@@ -129,29 +129,53 @@ Thread_Poll/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Thread_Poll.dir/build.make CMakeFiles/Thread_Poll.dir/build
 .PHONY : Thread_Poll/fast
 
-src/Thread_Pool.o: src/Thread_Pool.c.o
+src/Thread_Pool.o: src/Thread_Pool.cpp.o
 .PHONY : src/Thread_Pool.o
 
 # target to build an object file
-src/Thread_Pool.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Thread_Poll.dir/build.make CMakeFiles/Thread_Poll.dir/src/Thread_Pool.c.o
-.PHONY : src/Thread_Pool.c.o
+src/Thread_Pool.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Thread_Poll.dir/build.make CMakeFiles/Thread_Poll.dir/src/Thread_Pool.cpp.o
+.PHONY : src/Thread_Pool.cpp.o
 
-src/Thread_Pool.i: src/Thread_Pool.c.i
+src/Thread_Pool.i: src/Thread_Pool.cpp.i
 .PHONY : src/Thread_Pool.i
 
 # target to preprocess a source file
-src/Thread_Pool.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Thread_Poll.dir/build.make CMakeFiles/Thread_Poll.dir/src/Thread_Pool.c.i
-.PHONY : src/Thread_Pool.c.i
+src/Thread_Pool.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Thread_Poll.dir/build.make CMakeFiles/Thread_Poll.dir/src/Thread_Pool.cpp.i
+.PHONY : src/Thread_Pool.cpp.i
 
-src/Thread_Pool.s: src/Thread_Pool.c.s
+src/Thread_Pool.s: src/Thread_Pool.cpp.s
 .PHONY : src/Thread_Pool.s
 
 # target to generate assembly for a file
-src/Thread_Pool.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Thread_Poll.dir/build.make CMakeFiles/Thread_Poll.dir/src/Thread_Pool.c.s
-.PHONY : src/Thread_Pool.c.s
+src/Thread_Pool.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Thread_Poll.dir/build.make CMakeFiles/Thread_Poll.dir/src/Thread_Pool.cpp.s
+.PHONY : src/Thread_Pool.cpp.s
+
+src/main.o: src/main.cpp.o
+.PHONY : src/main.o
+
+# target to build an object file
+src/main.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Thread_Poll.dir/build.make CMakeFiles/Thread_Poll.dir/src/main.cpp.o
+.PHONY : src/main.cpp.o
+
+src/main.i: src/main.cpp.i
+.PHONY : src/main.i
+
+# target to preprocess a source file
+src/main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Thread_Poll.dir/build.make CMakeFiles/Thread_Poll.dir/src/main.cpp.i
+.PHONY : src/main.cpp.i
+
+src/main.s: src/main.cpp.s
+.PHONY : src/main.s
+
+# target to generate assembly for a file
+src/main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Thread_Poll.dir/build.make CMakeFiles/Thread_Poll.dir/src/main.cpp.s
+.PHONY : src/main.cpp.s
 
 # Help Target
 help:
@@ -165,6 +189,9 @@ help:
 	@echo "... src/Thread_Pool.o"
 	@echo "... src/Thread_Pool.i"
 	@echo "... src/Thread_Pool.s"
+	@echo "... src/main.o"
+	@echo "... src/main.i"
+	@echo "... src/main.s"
 .PHONY : help
 
 

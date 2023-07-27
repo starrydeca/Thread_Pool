@@ -221,6 +221,15 @@ Thread_Poll_IS_TOP_LEVEL:STATIC=ON
 //Value Computed by CMake
 Thread_Poll_SOURCE_DIR:STATIC=/home/starsdecade/文档/Thread_Pool/C语言版
 
+//Value Computed by CMake
+name_BINARY_DIR:STATIC=/home/starsdecade/文档/Thread_Pool/C语言版/build
+
+//Value Computed by CMake
+name_IS_TOP_LEVEL:STATIC=ON
+
+//Value Computed by CMake
+name_SOURCE_DIR:STATIC=/home/starsdecade/文档/Thread_Pool/C语言版
+
 
 ########################
 # INTERNAL cache entries
