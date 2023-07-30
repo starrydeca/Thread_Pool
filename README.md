@@ -6,6 +6,8 @@
 <font style="color: #f47466">此仓库所编写的是C语言版本和C++版本</font>
 ## 编译方法
 > 切换到build目录下，执行以下代码，生成可执行程序
+
     cmake ..
     make
+    
 
